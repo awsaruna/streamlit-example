@@ -16,7 +16,7 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 # Setting the API key
-openai.api_key = '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'
+openai.api_key = 'xxxxxxxxxx'
 
 # Define the user prompt message
 prompt = "Hello!"
