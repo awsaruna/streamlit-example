@@ -33,6 +33,8 @@ completion = openai.ChatCompletion.create(
 # Print the returned output from the LLM model
 print(completion.choices[0].message)
 
+st.write(completion.choices[0].message)
+
 with st.echo(code_location='below'):
     total_points = st.slider("This is Mr. Lucky", 1, 5000, 2000)
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
