@@ -20,7 +20,7 @@ openai.api_key = st.secrets["API_KEY"]
 
 user_input = st.text_input("What bothers you?", "say what bothers you")
 if st.button("Help!", type="primary"):
-    prompt = "Check the sentiment of the following phrase and if its negative then convert it to a positive phrase, start with a very supportive and understanding tone\n\nDesired format:\nOriginal Phrase:\nSentiment:\nConverted Phrase:\n\nText:'"+user_input+'"
+    prompt = "Check the sentiment of the following phrase and if its negative then convert it to a positive phrase, start with a very supportive and understanding tone\n\nDesired format:\nOriginal Phrase:\nSentiment:\nConverted Phrase:\n\nText:'"+user_input+"'"
     # Create a chatbot using ChatCompletion.create() function
     completion = openai.ChatCompletion.create(
     # Use GPT 3.5 as the LLM
