@@ -19,7 +19,10 @@ In the meantime, below is an example of what you can do with just a few lines of
 openai.api_key = st.secrets["API_KEY"]
 
 # Define the user prompt message
-prompt = "Say the following sentence in a very positive and constructive way, start with a very supportive and understanding tone:'you look ugly and stupid'"
+#prompt = "Say the following sentence in a very positive and constructive way, start with a very supportive and understanding tone:'you look ugly and stupid'"
+
+promt = "Check the sentiment of the following phrase and if its negative then convert it to a positive phrase\n\nDesired format:\nOriginal Phrase:\nSentiment:\nConverted Phrase:\n\nText:"
+
 # Create a chatbot using ChatCompletion.create() function
 completion = openai.ChatCompletion.create(
   # Use GPT 3.5 as the LLM
