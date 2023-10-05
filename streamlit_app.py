@@ -31,12 +31,9 @@ if st.button("Help!", type="primary"):
         {"role": "user", "content": prompt}
       ]
     )
-# Print the returned output from the LLM model
-print(completion.choices[0].message)
-
-st.write(completion.choices[0].message)
+    # Print the returned output from the LLM model
+    print(completion.choices[0].message)
+    st.write(completion.choices[0].message)
     
-
-
 # Define the user prompt message
 #prompt = "Say the following sentence in a very positive and constructive way, start with a very supportive and understanding tone:'you look ugly and stupid'"
