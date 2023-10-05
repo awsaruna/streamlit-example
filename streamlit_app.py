@@ -18,6 +18,12 @@ In the meantime, below is an example of what you can do with just a few lines of
 # Setting the API key
 openai.api_key = st.secrets["API_KEY"]
 
+user_input = st.text_input("What bothers you?", "say what bothers you")
+st.button("Help!", type="primary")
+if st.button('Help!'):
+    st.write('I clicked the help button')
+
+
 # Define the user prompt message
 #prompt = "Say the following sentence in a very positive and constructive way, start with a very supportive and understanding tone:'you look ugly and stupid'"
 
