@@ -31,17 +31,11 @@ st.markdown("""
         transform: translateX(-50%);
         font-size: 5px;
     }
-        /* Style the text box border */
-    div.stTextInput > div > div > input {
-        border: 1px solid #8000ff !important;
-    }
-
-    /* Style the submit button */
-    button.stButton>div>div>div {
+       /* Style the submit button */
+    .stButton > button {
         background-color: #8000ff !important;
         color: white !important;
     }
-    
 </style>
 """, unsafe_allow_html=True)
 
