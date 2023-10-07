@@ -36,9 +36,10 @@ st.markdown("""
         background-color: #8000ff !important;
         color: white !important;
     }
-        /* Style the text box border */
-    div.stTextInput > div > div > input {
+    /* Style the text box border */
+    input[type="text"] {
         border: 1px solid #8000ff !important;
+    }
     }
 
     /* Style the submit button border */
