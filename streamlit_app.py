@@ -8,6 +8,28 @@ from gtts import gTTS
 import base64
 
 st.title("Teen Talk - Your life and happiness in your hands! :sunglasses:")
+
+# Add custom CSS for branding
+st.write(
+    """
+    <style>
+    body {
+        background-color: #f0f0f0;
+        color: #991cff; /* Set text color to hex#991cff (purple) */
+        font-family: 'Roboto Mono', monospace; /* Use Roboto Mono font */
+    }
+    .logo {
+        max-width: 200px;
+        display: block;
+        margin: 20px auto;
+    }
+    </style>
+    """
+)
+
+# Add your logo using HTML
+st.markdown('<img class="logo" src="https://cac-2023.s3.us-west-1.amazonaws.com/teentalklogo.png" alt="Logo">', unsafe_allow_html=True)
+
 st.divider()
 
 # Setting the API key
