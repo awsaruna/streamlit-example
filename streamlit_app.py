@@ -12,7 +12,7 @@ You life is very precious, you can make a difference in the world. I am here for
 # Setting the API key
 openai.api_key = st.secrets["API_KEY"]
 
-user_input = st.text_input("What bothers you?", "say what bothers you")
+user_input = st.text_input("What bothers you??", "say what bothers you")
 if st.button("Help!", type="primary"):
     prompt = "Check the sentiment of the following phrase and if its negative then convert it to a positive phrase, start with a very supportive and understanding tone\n\nDesired format:\nOriginal Phrase:\nSentiment:\nConverted Phrase:\n\nText:'"+user_input+"'"
     # Create a chatbot using ChatCompletion.create() function
