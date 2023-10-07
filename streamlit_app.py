@@ -8,7 +8,6 @@ from gtts import gTTS
 import base64
 
 st.title("Teen Talk - Your life and happiness in your hands! :sunglasses:")
-st.title("helloworld")
 st.divider()
 
 # Setting the API key
