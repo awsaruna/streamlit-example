@@ -1,4 +1,3 @@
-
 from collections import namedtuple
 import altair as alt
 import math
@@ -9,6 +8,10 @@ from gtts import gTTS
 import base64
 
 st.markdown("""
+    <meta property="og:title" content="TeenTalk" />
+    <meta property="og:description" content="Description of your app" />
+    <meta property="og:image" content="URL_to_thumbnail_image.png" />
+    <meta property="og:url" content="URL_of_your_app" />
 <style>
     body {
         background-color: #fffdfa;
