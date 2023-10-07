@@ -64,7 +64,7 @@ if st.button("Submit", type="primary"):
     tts.save("output.mp3")
     st.audio("output.mp3", format='audio/mp3')
 st.markdown("""
-**Disclaimer:** This web app is powered by experimental AI technology. It is not a substitute for professional mental health advice or treatment. It is not licensed, nor should it be used for addressing serious mental health issues related to suicide or other severe diagnoses. If you or someone you know is in crisis or needs immediate help, please dial the international crisis helpline at **988** and consult with a trusted adult or mental health professional.
+##### **Disclaimer:** ######This web app is powered by experimental AI technology. It is not a substitute for professional mental health advice or treatment. It is not licensed, nor should it be used for addressing serious mental health issues related to suicide or other severe diagnoses. If you or someone you know is in crisis or needs immediate help, please dial the international crisis helpline at **988** and consult with a trusted adult or mental health professional.
 """)
 
     
