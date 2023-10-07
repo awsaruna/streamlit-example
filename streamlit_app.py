@@ -1,3 +1,13 @@
+
+from collections import namedtuple
+import altair as alt
+import math
+import pandas as pd
+import streamlit as st
+import openai
+from gtts import gTTS
+import base64
+
 st.markdown("""
 <style>
     body {
@@ -8,15 +18,6 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-
-from collections import namedtuple
-import altair as alt
-import math
-import pandas as pd
-import streamlit as st
-import openai
-from gtts import gTTS
-import base64
 
 st.image("https://e2009.s3.us-west-1.amazonaws.com/Untitled+Oct+04.png", use_column_width=True)
 st.title("Teen Talk - Your life and happiness in your hands! :smile:")
