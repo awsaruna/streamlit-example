@@ -29,7 +29,7 @@ st.markdown("""
         bottom: 10px;
         left: 50%;
         transform: translateX(-50%);
-        font-size: 12px;
+        font-size: 5px;
     }
     
 </style>
