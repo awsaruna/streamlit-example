@@ -17,17 +17,13 @@ st.write(
         color: #991cff; /* Set text color to hex#991cff (purple) */
         font-family: 'Roboto Mono', monospace; /* Use Roboto Mono font */
     }
-    .logo {
-        max-width: 200px;
-        display: block;
-        margin: 20px auto;
-    }
     </style>
     """
 )
 
-# Add your logo using HTML above the title
-st.markdown('<img class="logo" src="https://e2009.s3.us-west-1.amazonaws.com/teentalklogo.png" alt="Logo">', unsafe_allow_html=True)
+# Display the logo using st.image
+logo_image = "teentalklogo.png"  # Change to the local path of your logo image
+st.image(logo_image, use_container_width=True)
 
 st.title("Teen Talk - Your life and happiness in your hands! :sunglasses:")
 st.divider()
