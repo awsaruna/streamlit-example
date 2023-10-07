@@ -8,7 +8,7 @@ import openai
 from gtts import gTTS
 import base64
 
- st.markdown("""
+st.markdown("""
 <style>
     body {
         background-color: #fffdfa;
