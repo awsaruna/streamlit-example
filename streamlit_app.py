@@ -65,7 +65,6 @@ if st.button("Submit", type="primary"):
     tts = gTTS(completion.choices[0].message["content"], lang="en", slow=False)
     tts.save("output.mp3")
     st.audio("output.mp3", format='audio/mp3')
-st.
     
 # Define the user prompt message
 #prompt = "Say the following sentence in a very positive and constructive way, start with a very supportive and understanding tone:'you look ugly and stupid'"
