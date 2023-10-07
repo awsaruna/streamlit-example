@@ -6,8 +6,7 @@ import streamlit as st
 import openai
 from gtts import gTTS
 import base64
-
-st.markdown("""
+st.write("""
     <!-- Basic meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,8 +18,11 @@ st.markdown("""
     <meta property="og:title" content="TeenTalk" />
     <meta property="og:description" content="Navigate life's challenges with our AI-powered counselor, tailored to provide instant emotional support and understanding. Harness the power of artificial intelligence for mental well-being, anytime and anywhere." />
     <meta property="og:image" content="URL_to_thumbnail_image.png" />
-    <meta property="og:url" content="URL_of_your_app" />
+    <meta property="og:url" content="https://teentalk.streamlit.app/" />
     <meta property="og:type" content="website" />
+""", unsafe_allow_html=True)
+
+st.markdown("""
 <style>
     body {
         background-color: #fffdfa;
