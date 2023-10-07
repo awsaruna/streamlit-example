@@ -8,10 +8,19 @@ from gtts import gTTS
 import base64
 
 st.markdown("""
+    <!-- Basic meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Karthick Arun">
+    <meta name="title" content="TeenTalk">
+    <meta name="description" content="Navigate life's challenges with our AI-powered counselor, tailored to provide instant emotional support and understanding. Harness the power of artificial intelligence for mental well-being, anytime and anywhere.">
+
+    <!-- Open Graph Protocol (OGP) meta tags -->
     <meta property="og:title" content="TeenTalk" />
-    <meta property="og:description" content="Description of your app" />
+    <meta property="og:description" content="Navigate life's challenges with our AI-powered counselor, tailored to provide instant emotional support and understanding. Harness the power of artificial intelligence for mental well-being, anytime and anywhere." />
     <meta property="og:image" content="URL_to_thumbnail_image.png" />
     <meta property="og:url" content="URL_of_your_app" />
+    <meta property="og:type" content="website" />
 <style>
     body {
         background-color: #fffdfa;
