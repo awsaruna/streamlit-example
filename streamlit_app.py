@@ -8,10 +8,20 @@ import openai
 from gtts import gTTS
 import base64
 
-st.markdown("""
+ st.markdown("""
 <style>
     body {
         background-color: #fffdfa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    div.main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
     .stApp, .css-145kmo2, .css-17eq0hr, .css-qbe2hs, .css-1aumxhk, .css-17y0c9n, .css-1v3fh75, .css-t8sg0s, .css-1dbjc4n {
         color: #8000ff !important;
