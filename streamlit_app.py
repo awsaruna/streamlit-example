@@ -38,7 +38,7 @@ openai.api_key = st.secrets["API_KEY"]
 user_input = st.text_input("Your life is very precious, you can make a difference in the world. I am here for you....", placeholder="please type what your concerns here, I am here to help.")
 if st.button("Submit", type="primary"):
     #prompt = "Check the sentiment of the following phrase and if its negative then convert it to a positive phrase, start with a very supportive and understanding tone\n\nDesired format:Original Phrase:,Sentiment:,Converted Phrase:\n\nText:'"+user_input+"'"
-    prompt = "You are a student councelor. Check the sentiment of the following phrase and if its negative then advise the student in an encouraging tone. Start with a very supportive and understanding tone. Just say the advise and no additional information\n\nText:'"+user_input+"'"
+    prompt = "You are a student councelor with very deep compasion, you are a the trusted adult. Check the sentiment of the following phrase and if its negative then advise the student in an encouraging tone. Start with a very supportive and understanding tone. If any topics of suicide or self harm to others or the user then refer them to get profeshinal help and refer them to the teen suicide help hotline phone or text numeber. Just say the advise and no additional information\n\nText:'"+user_input+"'"
     # Create a chatbot using ChatCompletion.create() function
     completion = openai.ChatCompletion.create(
     # Use GPT 3.5 as the LLM
