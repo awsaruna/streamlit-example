@@ -6,13 +6,12 @@ import streamlit as st
 import openai
 from gtts import gTTS
 import base64
-
-st.title("Teen Talk - Your life and happiness in your hands! :sunglasses:")
-
 # Add custom CSS for branding
 st.write(
     """
     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+    
     body {
         background-color: #f0f0f0;
         color: #991cff; /* Set text color to hex#991cff (purple) */
@@ -27,9 +26,10 @@ st.write(
     """
 )
 
-# Add your logo using HTML
-st.markdown('<img class="logo" src="https://cac-2023.s3.us-west-1.amazonaws.com/teentalklogo.png" alt="Logo">', unsafe_allow_html=True)
+# Add your logo using HTML above the title
+st.markdown('<img class="logo" src="https://e2009.s3.us-west-1.amazonaws.com/teentalklogo.png" alt="Logo">', unsafe_allow_html=True)
 
+st.title("Teen Talk - Your life and happiness in your hands! :sunglasses:")
 st.divider()
 
 # Setting the API key
