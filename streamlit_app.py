@@ -39,6 +39,7 @@ st.markdown("""
 
 st.image("https://e2009.s3.us-west-1.amazonaws.com/Untitled+Oct+04.png", width=200)
 st.title("Teen Talk - Your life and happiness in your hands! :smile:")
+st.write("Made by Karthick Arun")
 st.divider()
 # Setting the API key
 openai.api_key = st.secrets["API_KEY"]
