@@ -9,7 +9,7 @@ import base64
 st.markdown("""
 <style>
     body {
-        background-color: #fffdfa;
+        background-color: #f5ebff;
         display: flex;
         justify-content: center;
         align-items: center;
