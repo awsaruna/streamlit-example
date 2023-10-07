@@ -26,7 +26,16 @@ st.markdown("""
     .stApp, .css-145kmo2, .css-17eq0hr, .css-qbe2hs, .css-1aumxhk, .css-17y0c9n, .css-1v3fh75, .css-t8sg0s, .css-1dbjc4n {
         color: #8000ff !important;
     }
+    .footer {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 12px;
+    }
+    
 </style>
+<div class="footer">Disclaimer: This webapp is powered by AI that is expirimental. For further help please refer to a mental health professhinal. This tool is not lincesed nor should be used for serious mental health issues related to sucided and other serious mental health dianosies, please refer to the international crisis helpline by dialing 988 and speak with a trusted adult.</div>
 """, unsafe_allow_html=True)
 
 st.image("https://e2009.s3.us-west-1.amazonaws.com/Untitled+Oct+04.png", width=200)
@@ -56,6 +65,7 @@ if st.button("Submit", type="primary"):
     tts = gTTS(completion.choices[0].message["content"], lang="en", slow=False)
     tts.save("output.mp3")
     st.audio("output.mp3", format='audio/mp3')
+st.
     
 # Define the user prompt message
 #prompt = "Say the following sentence in a very positive and constructive way, start with a very supportive and understanding tone:'you look ugly and stupid'"
