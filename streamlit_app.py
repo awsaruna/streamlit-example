@@ -41,7 +41,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.image("https://e2009.s3.us-west-1.amazonaws.com/Untitled+Oct+04.png", width=200)
-st.title("Teen Talk - Your life and happiness in your hands! :smile:")
+st.title("TeenTalk - Your life and happiness in your hands! :smile:")
 st.write("Made by Karthick Arun")
 st.divider()
 # Setting the API key
