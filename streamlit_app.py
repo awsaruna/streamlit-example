@@ -6,24 +6,8 @@ import streamlit as st
 import openai
 from gtts import gTTS
 import base64
-# Add custom CSS for branding
-st.write(
-    """
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-    
-    body {
-        background-color: #f0f0f0;
-        color: #991cff; /* Set text color to hex#991cff (purple) */
-        font-family: 'Roboto Mono', monospace; /* Use Roboto Mono font */
-    }
-    </style>
-    """
-)
 
-# Display the logo using st.image
-logo_image = "teentalklogo.png"  # Change to the local path of your logo image
-st.image(logo_image, use_container_width=True)
+#add in branding above title
 
 st.title("Teen Talk - Your life and happiness in your hands! :sunglasses:")
 st.divider()
